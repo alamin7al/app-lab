@@ -49,3 +49,28 @@ body{
 hr{
     border: 3px dotted rgb(155, 146, 146);
 }
+.back ,.back2{
+    background-color: rgba(233, 233, 233, 0.843);
+}
+.back2{
+    height: 200px;
+}
+.fa{
+    color: yellow;
+}
+.last-back{
+background-color: rgb(247, 238, 238);
+}
+.accordion-item{
+
+background-color: red;
+}
+.playstore{
+    width: 200px;
+}
+.footer{
+    background-color: rgb(225, 227, 233);
+}
+.nav-link{
+color: rgb(10, 10, 10) !important;
+}
