@@ -21,7 +21,7 @@ body{
 }
 #background{
     min-height: calc(100vh-76px);
-    background: url(/images/main-bg.jpg);
+    background: url(images/main-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -33,7 +33,7 @@ body{
     background-color: rgb(231, 218, 218);
 }
 #icon img {
-   
+   width: 10%;
   margin: 5px ;
   padding: 5px;
 }
