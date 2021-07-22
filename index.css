@@ -37,3 +37,15 @@ body{
   margin: 5px ;
   padding: 5px;
 }
+.vl{
+    border-left: 3px solid rgb(221, 226, 214);
+}
+#icon{
+    margin-bottom: 25px;
+}
+#icon1{
+    margin-top:  25px;
+}
+hr{
+    border: 3px dotted rgb(155, 146, 146);
+}
