@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
@@ -15,7 +16,7 @@
 
 <body>
     <!-- navigation part start -->
-    <div class="container">
+    <div class="container" data-aos="zoom-in">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">applab</a>
@@ -54,7 +55,7 @@
 
     <!-- main section start -->
     <div id="main-height" class="container">
-        <div id="background" class="row">
+        <div id="background" class="row ">
             <div class="col-lg-8 col-md-7 col-sm-6 col-12 d-flex align-items-center">
                 <div>
                     <h6 id="bord""> <img src=" images/check-icon.png" alt=""> #1 editor choice app of 2020</h6>
@@ -75,18 +76,18 @@
             </div>
         </div>
     </div>
-
+    
     <!-- main section end -->
 
 
     <!-- icon start -->
     <div class="container ">
-        <div class="row ">
+        <div class="row  ">
 
 
 
             <p id="icon1" class="text-center pt-4 ">Lorem ipsum dolor sit amet consectetur.</p>
-            <div id="icon" class="col text-center d-flex justify-content-evenly">
+            <div id="icon" class="col text-center d-flex justify-content-evenly ">
 
                 <img class="" src="images/brand-logo1.png" alt="">
                 <img src="images/brand-logo2.png" alt="">
@@ -106,7 +107,7 @@
  -->
 
 
-    <div class="container">
+    <div class="container" data-aos="fade-in">
         <div class="row my-4">
             <div class="col-lg-4 col-md-6  col-sm-6 mx-auto ">
                 <img class="w-100" src="images/phon1.png" alt="">
@@ -228,7 +229,7 @@
 
 
 
-    <div class="container">
+    <div class="container "data-aos="zoom-in">
         <div class="row mb-3">
             <div class="col-lg-3 col-md-4 col-sm-4 col-6">
                 <div class="text-center">
@@ -563,6 +564,30 @@
 
 
     <script src="bootstrap.bundle.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 400,
+        duration: 1000,
+      });
+    </script>
+
+
+
+
 </body>
 
 </html>
