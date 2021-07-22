@@ -1,0 +1,39 @@
+body{
+    text-transform: capitalize;
+}
+.nav-link{
+    margin-right: 20px;
+    font-weight: 600;
+}
+/* .button{
+    background-color: blue !important;
+    border-radius: 40px  !important;
+    padding: 10px 20px  !important;
+} */
+#button-style{
+    background-color: blue ;
+    border-radius: 40px  ;
+    padding: 10px 20px  ;
+}
+.image-main{
+    margin-top: 14px;
+    width: 240px;
+}
+#background{
+    min-height: calc(100vh-76px);
+    background: url(/images/main-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#bord {
+    width: 300px;
+    border-radius: 50px;
+    background-color: rgb(231, 218, 218);
+}
+#icon img {
+   
+  margin: 5px ;
+  padding: 5px;
+}
